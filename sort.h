@@ -37,4 +37,8 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void swap(int *first, int *second);
 
+/* Prototypes for INsert sort */
+void insertion_sort_list(listint_t **list);
+void swap_linked_list(listint_t **head, listint_t **first, listint_t *second);
+
 #endif
