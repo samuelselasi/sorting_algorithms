@@ -21,5 +21,6 @@ void print_list(const listint_t *list);
 
 /* Prototypes for Bubble Sort */
 void bubble_sort(int *array, size_t size);
+void swap(int *first, int *second);
 
 #endif
