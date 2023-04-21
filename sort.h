@@ -1,6 +1,9 @@
 #ifndef SORT_H
 #define SORT_H
 
+#include <stdio.h>
+#include<stdlib.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -14,6 +17,17 @@ typedef struct listint_s
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
+
+/**
+ * enum bool - Enumerate Boolean values
+ * @false: 0
+ * @true: 1
+ */
+typedef enum bool
+{
+	false = 0,
+	true
+} bool;
 
 /* Prototypes for print_array and print_list functions */
 void print_array(const int *array, size_t size);
