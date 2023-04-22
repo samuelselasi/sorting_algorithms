@@ -2,6 +2,8 @@
 
 ### `C` `Algorithm` `Data structure`
 
+![willy-wonka](https://user-images.githubusercontent.com/85158665/233752460-25ce2be8-5f52-421b-9c33-bc338edbe171.png)
+
 ## Resources
 
 **Read or watch**:
