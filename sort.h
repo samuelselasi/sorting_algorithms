@@ -56,4 +56,8 @@ void cocktail_sort_list(listint_t **list);
 void swap_right(listint_t **list, listint_t **tail, listint_t **shaker);
 void swap_left(listint_t **list, listint_t **tail, listint_t **shaker);
 
+/* Prototypes for Counting sort */
+void counting_sort(int *array, size_t size);
+int max_int(int *array, int size);
+
 #endif
