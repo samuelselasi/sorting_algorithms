@@ -48,4 +48,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void lomuto_sort(int *array, size_t size, int left, int right);
 
+/* Prototype for Shell sort */
+void shell_sort(int *array, size_t size);
+
 #endif
