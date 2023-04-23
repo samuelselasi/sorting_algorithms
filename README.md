@@ -458,6 +458,11 @@ Write a function that sorts a doubly linked list of integers in ascending order 
 * You’re expected to print the `list` after each time you swap two elements (See example below)
 
 Write in the file [101-O](./101-O), the big O notations of the time complexity of the `Cocktail shaker` sort algorithm, with `1` notation per line:
+
+* in the best case
+* in the average case
+* in the worst case
+
 ```
 alex@/tmp/sort$ cat 101-main.c
 #include <stdio.h>
