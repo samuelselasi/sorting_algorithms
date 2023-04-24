@@ -46,7 +46,6 @@ void hoare_sort(int *array, size_t size, int left, int right)
 				print_array(array, size);
 			}
 		}
-
 		hoare_sort(array, size, left, above - 1);
 		hoare_sort(array, size, above, right);
 	}
