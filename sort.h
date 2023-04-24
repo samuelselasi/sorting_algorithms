@@ -72,4 +72,9 @@ void heapify(int *array, size_t size, size_t base, size_t root);
 void radix_sort(int *array, size_t size);
 void lsd_radix_sort(int *array, size_t size, int sig, int *buff);
 
+/* Prototypes for Bitonic sort */
+void bitonic_sort(int *array, size_t size);
+void bitonic_recursive(int *array, size_t size, size_t start,
+		size_t seq, char flow);
+
 #endif
