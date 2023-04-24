@@ -770,7 +770,7 @@ Write a function that sorts an array of integers in ascending order using the [R
 * You must implement the `LSD` radix sort algorithm
 * You can assume that `array` will contain only numbers `>= 0`
 * You are allowed to use `malloc` and `free` for this task
-* You’re expected to print the `array` each time you increase your significant digit (See example below)
+* You’re expected to print the `array` each time you increase your `significant digit` (See example below)
 
 ```
 alex@/tmp/sort$ cat 105-main.c
