@@ -3,6 +3,13 @@
 
 #include <stdlib.h>
 
+/**
+ * enum kind_e - Numerical value of cards
+ * @SPADE: Spades
+ * @HEART: Hearts
+ * @CLUB: Clubs
+ * @DIAMOND: Diamonds
+ */
 typedef enum kind_e
 {
 	SPADE = 0,
@@ -39,5 +46,9 @@ typedef struct deck_node_s
 } deck_node_t;
 
 void sort_deck(deck_node_t **deck);
+int _strcmp(const char *first, const char *second);
+char card_value(deck_node_t *card);
+void sort_kind(deck_node_t **deck);
+void sort_value(deck_node_t **deck);
 
 #endif
