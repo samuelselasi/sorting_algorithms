@@ -2,6 +2,11 @@
 #include <stdio.h>
 #include "deck.h"
 
+/**
+ * print_deck - function that prints a deck of cards
+ * @deck: the deck of cards
+ * Return: None
+ */
 void print_deck(const deck_node_t *deck)
 {
 	size_t i;
@@ -20,6 +25,11 @@ void print_deck(const deck_node_t *deck)
 	}
 }
 
+/**
+ * init_deck - deck initialiser
+ * @cards: cards in deck
+ * Return: shuffled deck
+ */
 deck_node_t *init_deck(const card_t cards[52])
 {
 	deck_node_t *deck;
@@ -43,6 +53,10 @@ deck_node_t *init_deck(const card_t cards[52])
 	return (deck);
 }
 
+/**
+ * main - Entry point
+ * Return: Always 0
+ */
 int main(void)
 {
 	card_t cards[52] = {
